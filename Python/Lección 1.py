@@ -180,14 +180,11 @@ print(result)
 result = not a
 print(result)
 """
-
 number = int(input("Enter a number: "))
 if number >= 0 and number <= 5:
     print(f"Number {number} is between the range of 0 and 5")
 else:
     print(f"Number {number} is not between the range of 0 and 5")
-
-    print("Probando Commit")
 
 
 
