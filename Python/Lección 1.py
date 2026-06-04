@@ -1,5 +1,10 @@
 """
+#CLASS 1 - PYTHON FUNDAMENTS
 print("Hi World")
+"""
+
+"""
+#CLASS 2 - PYTHON VARIABLES
 miVariable = 3
 print(miVariable)
 miVariable = "Hi to every student of the career"
@@ -16,7 +21,10 @@ print(id(x))
 print(id(y))
 print(id(z))
 #Literals are written the following way: variable x = x776 - variable y = x520 - variable z = x840
+"""
 
+"""
+#CLASS 3 - PYTHON DATA TYPES
 #Types int, float, String, Bool
 x = 10
 print(x)
@@ -63,8 +71,20 @@ number1 = int(input("Enter the first number: "))
 number2 = int(input("Enter the second number: "))
 result = number1 + number2
 print ("The result of the addition is:", result)
+
+#Exercise 1: Rate your day
+day = int(input("Rate your day in a scale of 1 to 10:"))
+print(f"My day was a: {day}")
+
+#Exercise 2: Book author information
+title = str(input("Enter your favorite book title:"))
+author = str(input("Enter your favorite book author:"))
+print(f"The book {title} was written by {author}")
+
 """
+
 """
+#CLASS 4 - PYTHON OPERATORS PART 1
 operatingA = 8
 operatingB = 5
 addition = operatingA + operatingB
@@ -98,9 +118,7 @@ area = height * width
 perimeter = (height + width) * 2
 print("Area: ", area)
 print("Perimeter: ", perimeter )
-"""
 
-"""
 #Arithmetic operators
 myVariable3 = 10
 print(myVariable3)
@@ -149,7 +167,6 @@ print(result)
 result = d >= b
 print(result)
 """
-
 #Exercise even or odd number (par o impar)
 """
 number = int(input("Enter a number: "))
@@ -167,7 +184,9 @@ if num >= 18:
 else:
     print(f"You are {num}, your are a minor")
 """
+
 """
+#CLASS 5 - PYTHON OPERATORS PART 2
 #Logic operators
 a = True
 b = False
@@ -180,13 +199,16 @@ print(result)
 result = not a
 print(result)
 """
-number = int(input("Enter a number: "))
-if number >= 0 and number <= 5:
-    print(f"Number {number} is between the range of 0 and 5")
+"""
+value = int(input("Enter a number between 0 and 5: "))
+minValue = 0
+maxValue = 5
+inRange = (value >= minValue and value <= maxValue)
+if inRange:
+    print(f"The value {value} is in range")
 else:
-    print(f"Number {number} is not between the range of 0 and 5")
-
-
+    print(f"The value {value} is not in range")
+"""
 
 
 
