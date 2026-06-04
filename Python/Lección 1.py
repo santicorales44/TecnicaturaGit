@@ -239,6 +239,7 @@ if number1 > number2:
 else:
     print(f"The second number is the biggest one")
 """
+"""
 #Exercise: Book Shop
 print("Enter the following information about the book")
 bookName = input("Enter the book's name: ")
@@ -257,10 +258,7 @@ print(f"The book´s name is: {bookName}")
 print(f"The book's ID is: {bookID}")
 print(f"The book's price is: {bookPrice}")
 print(f"¿Free shipping? {freeShipping}")
-
-
-
-
+"""
 
 
 
