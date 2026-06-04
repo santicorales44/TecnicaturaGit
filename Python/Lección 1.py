@@ -2,7 +2,6 @@
 #CLASS 1 - PYTHON FUNDAMENTS
 print("Hi World")
 """
-from selectors import SelectSelector
 
 """
 #CLASS 2 - PYTHON VARIABLES
