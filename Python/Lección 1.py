@@ -5,11 +5,11 @@ print("Hi World")
 
 """
 #CLASS 2 - PYTHON VARIABLES
-miVariable = 3
-print(miVariable)
-miVariable = "Hi to every student of the career"
-print(miVariable)
-miVariable = 3.5
+myVariable = 3
+print(myVariable)
+myVariable = "Hi to every student of the career"
+print(myVariable)
+myVariable = 3.5
 print(miVariable)
 x = 10
 y = 2
