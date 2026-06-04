@@ -2,6 +2,7 @@
 #CLASS 1 - PYTHON FUNDAMENTS
 print("Hi World")
 """
+from selectors import SelectSelector
 
 """
 #CLASS 2 - PYTHON VARIABLES
@@ -198,8 +199,7 @@ print(result)
 
 result = not a
 print(result)
-"""
-"""
+
 value = int(input("Enter a number between 0 and 5: "))
 minValue = 0
 maxValue = 5
@@ -209,6 +209,91 @@ if inRange:
 else:
     print(f"The value {value} is not in range")
 """
+"""
+#Exercise using operator or - not
+holidays = False
+restDay = True
+if not (holidays or restDay):
+    print("You can attend the game")
+else:
+    print("You can't attend the game")
+"""
+"""
+#Exercise: Range between 20 and 30 years
+age = int(input("Enter your age: "))
+twenty = age >= 20 and age < 30
+print(twenty)
+thirty = age >= 30 and age < 40
+print(thirty)
+
+if twenty or thirty:
+    print("Yor are in range of (20'0) to (30'0) years")
+else:
+    print("Your are not in range of (20'0) to (30'0) years")
+"""
+"""
+#Exercise The biggest number
+number1 = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
+if number1 > number2:
+    print(f"The first number is the biggest one")
+else:
+    print(f"The second number is the biggest one")
+"""
+#Exercise: Book Shop
+print("Enter the following information about the book")
+bookName = input("Enter the book's name: ")
+bookID = input("Enter the book's ID: ")
+bookPrice = float(input("Enter the book's price: "))
+freeShipping = (input("Does the book include free shipping? Type Yes or No: "))
+
+if freeShipping == "Yes":
+    freeShipping = True
+elif freeShipping == "No":
+    freeShipping = False
+else:
+    freeShipping = "Error, you must write Yes / No"
+
+print(f"The book´s name is: {bookName}")
+print(f"The book's ID is: {bookID}")
+print(f"The book's price is: {bookPrice}")
+print(f"¿Free shipping? {freeShipping}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
