@@ -4,7 +4,7 @@
 #Length = 2 * Pi * r
 #In this exercise we will need import the module math because it has pi's value
 #It's written: import math
-"""
+
 import math
 radius = float(input("Enter the circle's radius: "))
 area = math.pi * radius ** 2
@@ -12,7 +12,7 @@ length = 2 * math.pi * radius
 
 print(f"The circle's area is: {area:.2f}")
 print(f"The circle's length is: {length:.2f}")
-"""
+
 #Exercise 4.2: Life Stages
 #We'll make a program that, when the user enters their age, they will
 #see the stage of their life in a brief sentence:

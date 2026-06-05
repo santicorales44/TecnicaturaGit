@@ -21,6 +21,7 @@ print(f"The new value of a is {a} and of b is {b}")
 #Spring (21/09 - 21/12) 10,11,12
 #In the exercise we use None: this indicates the variable does not have an
 #assigned value yet (it's empty) then we'll amply it
+
 month = int(input("Enter a month of the year. You must enter a number between 1 and 12: "))
 season = None
 if month == 1 or month == 2 or month == 3:

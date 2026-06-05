@@ -1,5 +1,6 @@
 #Exercise 1:
 #We have to show an expression as an algorithmic expression, in other words, make it in code
+
 a = float(input("Enter a value for a: "))
 b = float(input("Enter a value for b: "))
 c = float(input("Enter a value for c: "))
