@@ -9,8 +9,20 @@ elif condition == False:
 else:
     print("No specified condition")
 """
+
 """
-#Exercise: Number to text convertion
+condition = True
+if condition:
+    print("True Condition")
+else:
+    print("False Condition")
+"""
+"""
+Simplified sintaxis
+print("True Condition") if condition else print("False Condition")
+"""
+"""
+#Exercise 1: Number to text convertion
 number = int(input("Enter a number in range of 1 to 3: "))
 number_text = ""
 if number == 1:
