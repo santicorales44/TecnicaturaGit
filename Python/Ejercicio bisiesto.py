@@ -13,27 +13,3 @@ while option == 1:
     option = int(input("To continue, enter 1: "))
     if option != 1:
         break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
