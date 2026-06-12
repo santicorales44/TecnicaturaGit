@@ -352,24 +352,5 @@ public class HolaMundo {
         arithmeticSolution = (4 + 5) * 6/3;
         System.out.println("arithmeticSolution = " + arithmeticSolution);
         */
-        
-        /*
-          Scanner entrance = new Scanner (System.in);
-          System.out.println("Enter the rectangle's base: ");
-          double base = entrance.nextDouble();
-          System.out.println("Enter the rectangle's height");
-          double height = entrance.nextDouble();
-        
-        double area = base * height;
-        double perimeter = 2 * (base + height);
-        
-        System.out.println("The area of the rectangle is: "+area);
-        System.out.println("The perimeter of the rectangle is: "+ perimeter);
-        */
-        
-        int numberA = 5;
-        int numberB = 3;
-        String result = (numberA>numberB) ? "Number A is the biggest one" : "Number B is the biggest one";
-        System.out.println("result = " + result);
     }
 }
