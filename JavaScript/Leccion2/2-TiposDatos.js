@@ -42,3 +42,22 @@ class person{
     }
 }
 console.log(typeof person);
+
+// Undefined data type
+var x;
+console.log(typeof x);
+
+x = undefined;
+console.log(typeof x);
+// null: it means abscence of value. there´s nothing in a variable
+var y = null; // null is not a data type, but it's origin is an object type.
+console.log(typeof y);
+
+// array and Empty String data types
+var cars = ["Citroen","Audi","BMW","Ford"];
+console.log(cars);
+console.log(typeof cars); // We ask what type of data is it.
+
+var z = '';
+console.log(z); // This means it's an empty string.
+console.log(typeof z);
