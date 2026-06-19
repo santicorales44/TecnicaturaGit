@@ -37,7 +37,7 @@ else{
 console.log(message);
 
 
-// Structure switch (the syntaxis is the same as Java)
+// Switch structure (the syntaxis is the same as Java)
 switch (month){
     case 1: case 2: case 12:
         station = "Summer";

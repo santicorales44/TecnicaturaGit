@@ -68,3 +68,77 @@ else if (age2 >= 18){
 else{
     console.log("You can´t vote")
 }
+
+// Const is used for constant values, that can't be reassigned.
+const birthDate = 2006;
+console.log(birthDate);
+
+// Avoid repeating your code.
+// Dry: Don´t Repeat Yourself
+let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+switch(days){
+    case "Monday":
+        console.log("Today is "+days);
+        break;
+    case "Tuesday":
+        console.log("Today is "+days);
+        break;
+    case "Wednsesday":
+        console.log("Today is "+days);
+        break;
+    case "Thursday":
+        console.log("Today is "+days);
+        break;
+    case "Friday":
+        console.log("Today is "+days);
+        break;
+    case "Saturday":
+        console.log("Today is "+days);
+        break;
+    case "Sunday":
+        console.log("Today is "+days);
+        break;               
+}
+let days2 = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+function getDay(n){
+    if (n < 1 || n > 7){
+        throw new Error("out of range");
+    }
+    return days2[n - 1];
+}
+console.log(getDay(5));
+
+
+// Exercise Dry: Month
+function months(months){
+    switch(months){
+        case 1:
+            return "January";
+        case 2:
+            return "February";
+        case 3:
+            return "March";
+        case 4:
+            return "April";
+        case 5:
+            return "May";
+        case 6:
+            return "June";
+        case 7:
+            return "July";
+        case 8:
+            return "August";
+        case 9:
+            return "September";
+        case 10:
+            return "October";
+        case 11:
+            return "November";
+        case 12:
+            return "December";
+        default:
+            throw "Invalid month";
+    }
+}
+console.log(months(6));
