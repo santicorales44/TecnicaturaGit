@@ -53,7 +53,34 @@ print(names)
 
 #We eliminate the list
 del names
-print(names)
+#print(names)
+
+#We define a tuple
+kitchen = ("Spoon", "Knife", "Fork")
+print(len(kitchen))
+
+#Access an element, for this we use [], not ()
+print(kitchen[0])
+#Show the inverse way
+print(kitchen[-1])
+
+#How to access a range
+print(kitchen[0:2])
+#Example
+vegetables = ("potato",) #A tuple needs at least from one element; a coma
+#Otherwise it would only be a string type
+
+#We go through the elements in the tuple
+for cook in kitchen: #Print is using \n for line jumps
+    print(cook,end=" ") #We use end= to delete line jumps
+
+#MODIFYING A TUPLE IS SOMETHING YOU SHOULD NEVER DO
+kitchenList = list(kitchen)
+kitchenList[0] = "Plate"
+kitchen = tuple(kitchenList)
+print("\n",kitchen)
+
+#del kitchen this is to eliminate a tuple
 
 
 
